@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="HealthCareServiceEP" groupId="com.example.ESB-RestAPIProject.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/HealthCareServiceEP.xml</file>
+    </artifact>
+    <artifact name="HealthCareAPI" groupId="com.example.ESB-RestAPIProject.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/HealthCareAPI.xml</file>
+    </artifact>
+    <artifact name="HealthCarePS" groupId="com.example.ESB-RestAPIProject.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/HealthCarePS.xml</file>
+    </artifact>
+    <artifact name="HealthCare_Mock_PS" groupId="com.example.ESB-RestAPIProject.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/HealthCare_Mock_PS.xml</file>
+    </artifact>
+</artifacts>
